@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Scatter Plot</title>
+        <link href="./style.css" rel="stylesheet" />
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+    </head>
+    <body>
+        <svg id="canvas">
+            <text id="title" x="200" y="30">
+                Doping Allegations in Professional Bicycle Racing
+            </text>
+        </svg>
+        <div id="legend">
+            <p id="red">Red = Riders with doping allegations</p>
+            <p id="green">Green = Riders without doping allegations</p>
+        </div>
+        <div id="tooltip"></div>
+    </body>
+    <script src="./index.js"></script>
+</html>
